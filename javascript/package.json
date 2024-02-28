@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Cache Venture's ESLint config.",
   "main": "index.js",
-  "repository": "https://github.com/cacheventures/code-style",
+  "homepage": "https://github.com/cacheventures/code-style",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cacheventures/code-style.git",
+    "directory": "javascript"
+  },
   "author": "Jarrett Lusso <jclusso@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
