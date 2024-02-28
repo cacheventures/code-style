@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-cache-ventures",
+  "version": "1.0.0",
+  "description": "Cache Venture's ESLint config.",
+  "main": "index.js",
+  "repository": "https://github.com/cacheventures/code-style",
+  "author": "Jarrett Lusso <jclusso@gmail.com>",
+  "license": "MIT"
+}
