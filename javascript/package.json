@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/cacheventures/code-style",
   "author": "Jarrett Lusso <jclusso@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
 }
