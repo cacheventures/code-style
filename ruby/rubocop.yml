@@ -81,6 +81,15 @@ Security:
 Style/ReturnNil:
   Enabled: true
 
+Style/StringLiterals:
+  Enabled: true
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
+
+Style/SymbolLiteral:
+  Enabled: true
+
 Minitest/AssertEqual:
   Enabled: true
 
