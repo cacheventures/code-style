@@ -28,6 +28,9 @@ Bundler:
 Bundler/OrderedGems:
   Enabled: false
 
+Layout/EmptyLineAfterGuardClause:
+  Enabled: true
+
 Lint:
   Enabled: true
 
