@@ -1,5 +1,6 @@
 export const CacheESLintConfig = {
   languageOptions: { globals: { Stimulus: 'readonly' } },
+  ignores: ['**/vendor/**/*.js'],
   rules: {
     'indent': ['error', 2, { 'SwitchCase': 1 }],
     'linebreak-style': ['error', 'unix'],
