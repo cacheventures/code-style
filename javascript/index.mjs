@@ -1,15 +1,16 @@
-module.exports = {
-  env: {
-    browser: true,
-    es2021: true
+import globals from 'globals'
+
+export const CacheESLintConfig = {
+  languageOptions: {
+    globals: {
+      ...globals.node,
+      ...globals.browser,
+      Stimulus: 'readonly'
+    }
   },
-  extends: ['eslint:recommended'],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
-  },
-  ignorePatterns: [
-    '**/vendor/**/*.js',
+  ignores: [
+    '**/vendor/',
+    '.netlify/*'
   ],
   rules: {
     'indent': ['error', 2, { 'SwitchCase': 1 }],
