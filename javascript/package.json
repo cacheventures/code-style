@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-cache-ventures",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Cache Venture's ESLint config.",
-  "main": "index.js",
+  "module": "index.mjs",
   "homepage": "https://github.com/cacheventures/code-style",
   "repository": {
     "type": "git",
