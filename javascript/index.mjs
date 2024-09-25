@@ -1,17 +1,5 @@
-import globals from 'globals'
-
 export const CacheESLintConfig = {
-  languageOptions: {
-    globals: {
-      ...globals.node,
-      ...globals.browser,
-      Stimulus: 'readonly'
-    }
-  },
-  ignores: [
-    '**/vendor/',
-    '.netlify/*'
-  ],
+  languageOptions: { globals: { Stimulus: 'readonly' } },
   rules: {
     'indent': ['error', 2, { 'SwitchCase': 1 }],
     'linebreak-style': ['error', 'unix'],
