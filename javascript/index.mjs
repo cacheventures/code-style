@@ -1,16 +1,6 @@
-module.exports = {
-  env: {
-    browser: true,
-    es2021: true
-  },
-  extends: ['eslint:recommended'],
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
-  },
-  ignorePatterns: [
-    '**/vendor/**/*.js',
-  ],
+export const CacheESLintConfig = {
+  languageOptions: { globals: { Stimulus: 'readonly' } },
+  ignores: ['**/vendor/**/*.js'],
   rules: {
     'indent': ['error', 2, { 'SwitchCase': 1 }],
     'linebreak-style': ['error', 'unix'],
