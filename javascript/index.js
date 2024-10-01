@@ -1,4 +1,4 @@
-export const CacheESLintConfig = {
+module.exports = {
   languageOptions: { globals: { Stimulus: 'readonly' } },
   ignores: ['**/vendor/**/*.js'],
   rules: {
