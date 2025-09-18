@@ -28,8 +28,35 @@ Bundler:
 Bundler/OrderedGems:
   Enabled: false
 
-Layout/EmptyLineAfterGuardClause:
+Layout:
   Enabled: true
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+# will be enabled by default in the future
+Layout/EmptyLinesAfterModuleInclusion:
+  Enabled: true
+
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+
+Layout/LineContinuationSpacing:
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+
+Layout/LineLength:
+  Severity: info
+  Max: 80
+  AutoCorrect: disabled
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
 
 Lint:
   Enabled: true
