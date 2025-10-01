@@ -108,6 +108,9 @@ Naming/VariableName:
 Security:
   Enabled: true
 
+Style/QuotedSymbols:
+  Enabled: true
+
 Style/ReturnNil:
   Enabled: true
 
